@@ -1,0 +1,20 @@
+/*Revisions Bookstore and Cafe style sheet 2, FIRST NAME LAST NAME, 2020 June 14, HTML5 and CSS3 Illustrated Unit C, Visual Workshop*/
+h1 {
+    color:navy;
+    background:lightblue;
+    text-align: center;
+}
+body {
+    text-align: left;
+}
+footer {
+    color:navy;
+    background:lightblue;
+    text-align: right;
+}
+/*#phone if using <p id="phone">(804) 555-2565</p>*/
+.phone {
+    color:maroon;
+    background:lightblue;
+    text-align: right;
+}
