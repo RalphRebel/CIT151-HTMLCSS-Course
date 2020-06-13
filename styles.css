@@ -1,0 +1,13 @@
+/*Murfreesboro Regional Soccer League style sheet, FIRST NAME LAST NAME, 2020 June 14, HTML5 and CSS3 Illustrated Unit C, Independent Challenge 2*/
+h1 {
+    background-color:orangered;
+    text-align: center;
+}
+body {
+    text-align: center;
+}
+footer {
+    color:white;
+    background-color:green;
+    text-align: right;
+}
