@@ -1,0 +1,77 @@
+/* 
+    Filename: Midstyles.css
+    Author: FirstName LastName
+    Date: 2020 June 28
+
+*/
+/* reset styles*/
+body {
+    margin: 0 auto;
+    border: 0 auto;
+    padding: 0 auto;
+}
+
+/* header section */
+header {
+    text-align: center;
+    padding: 2%;
+}
+
+/* body and page container */
+h1,h2,h3 {
+    font-family: 'Amarante';
+}
+
+#container {
+    width: 75%;
+    margin: 0 auto;
+    background-color: floralwhite;
+    padding: 2%;
+}
+
+article {
+    width: 45%;
+}
+
+body {
+    background-color: grey;
+}
+
+/* sidebar*/
+aside {
+    float: right;
+    width: 45%;
+    background-color: rgb(189, 204, 212);
+    padding: 2%;
+    margin-right: 1%;
+    box-shadow: 3px 3px 3px 3px #888888;
+}
+
+
+ul {
+    margin-left: 1em;
+}
+
+/* footer section */
+footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* print styles */
+@media print {
+    aside, article, body, .container {
+       color: #000;
+       background-color: #fff;
+       box-shadow: none;
+    }
+
+    footer {
+        text-align: center;
+        font: bold;
+    }
+ }
+ @page {
+    margin: 1in;
+ }
+ 
